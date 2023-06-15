@@ -65,7 +65,7 @@ body {
 }
 
 .content {
-    margin: 65px 1150px 25px 100px;
+    margin: 65px 1050px 25px 100px;
     padding-bottom: 10px;
     border-bottom: 1px solid black;
 }
@@ -86,7 +86,5 @@ body {
 
 
 .first_section  {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: ;
+    
 }
