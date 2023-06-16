@@ -8,7 +8,7 @@
 
 body {
     background: rgb(201,201,204);
-    background: linear-gradient(180deg, rgba(201,201,204,0.8995973389355743) 29%, rgba(255,255,255,0.6895133053221288) 52%);
+background: linear-gradient(180deg, rgba(201,201,204,0.8995973389355743) 5%, rgba(255,255,255,0.6895133053221288) 20%);
 }
 
 .container-mainbar {
@@ -72,18 +72,23 @@ body {
 
 
 .doubleTitle {
-    
     display: flex;
-    flex-direction: row;
     gap: 20px;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 .all_sections {
+    
     margin: 65px 1150px 25px 100px;
+   
+    
 }
 
+.re-reduximg {
+    width: 250px;
+    height: 150px;
+}
 
 .first_section  {
     
