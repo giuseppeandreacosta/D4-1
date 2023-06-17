@@ -7,29 +7,41 @@
 }
 
 body {
-    background: rgb(201,201,204);
-background: linear-gradient(180deg, rgba(201,201,204,0.8995973389355743) 5%, rgba(255,255,255,0.6895133053221288) 20%);
+    height: 100vh;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    
+
 }
 
-.container-mainbar {
+header {
     display: flex;
     width: 100%;
     position: sticky;
     top:0;
+    box-shadow:  3px 11px 14px 1px rgba(155, 153, 153, 0.22);
     
 
    
 }
 
 .navbar {
+    width: 100%;
+    position: sticky;
+    top:0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 25px 100px 25px 100px;
-    width: 100%;
+    
     cursor: pointer;
 }
+
+
+   main {
     
+    
+   } 
 
 .icons {
     display: flex;
@@ -42,7 +54,7 @@ background: linear-gradient(180deg, rgba(201,201,204,0.8995973389355743) 5%, rgb
 
 .resume {
     text-align: center;
-    line-height: 30px;
+    line-height: 32px;
     height: 35px;
     width: 160px;
     border-radius: 40px;
@@ -64,32 +76,130 @@ background: linear-gradient(180deg, rgba(201,201,204,0.8995973389355743) 5%, rgb
     width: 200px;
 }
 
-.content {
-    margin: 65px 1050px 25px 100px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;
-}
 
 
 .doubleTitle {
-    display: flex;
+    display: inline-flex;
+    margin: 65px 110px 25px 100px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    width: 100%;
     gap: 20px;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 .all_sections {
-    
-    margin: 65px 1150px 25px 100px;
-   
-    
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 20px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center; 
+}
+
+.abc {
+    margin-right: 20px;
+    margin-top: 50px;
+    width: 100%;
+    min-width: 0;
 }
 
 .re-reduximg {
-    width: 250px;
-    height: 150px;
-}
-
-.first_section  {
+    width: 200px;
+    height: 134px;
     
 }
+
+.icon-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 5px;
+    
+    
+}
+
+.boldtext{
+    font-weight: bold;   
+}
+
+
+
+
+.text-1 {
+   
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    
+}
+
+.text-1 h2 {
+    font-weight: 700;
+    margin-bottom:5px;
+}
+
+.sidebarscroll {
+    position: fixed;
+    width: 50%;
+    margin-left: 1100px;
+    border-left: 1px solid black;
+    
+}
+
+.lorem {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.react {
+    width: 60px;
+    height: 25px;
+    background-color: #E6E6E6;
+    line-height: 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.logokolby {
+    border-radius: 10px;
+}
+
+
+
+.under-text{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ 
+ 
+
+}
+
+
+.img {
+    display: flex;
+    
+}
+
+
+.last-icon {
+    
+    width: 50%;
+    gap: 5px;
+}
+
+aside {
+    min-height: 100vh;
+    margin-left: 80%;
+    background-color: red;
+}
+
