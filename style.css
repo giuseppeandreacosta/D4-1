@@ -24,21 +24,25 @@ header {
     box-shadow:  3px 11px 14px 1px rgba(155, 153, 153, 0.22);   
 }
 
-main {
-    display: flex;
-    flex-direction: column;
+#main {
+    float: left;
     height: 100%;
     width: 60%;
+    margin: 65px -35px 0px 100px;
  } 
 
- .sidebar {
+ .a23{
+    display: flex;
+ }
+
+
+ #sidebar {
     position: sticky;
-    left: 0;
-    width: 2%;
-    height: 100vh;
+    top: 0;
+    display: flex;
     background-color: lightgray;
+   
     
-    float: right;
  }
 
 .navbar {
@@ -93,19 +97,19 @@ main {
 
 .doubleTitle {
     display: flex;
-    margin: 65px -35px 0px 100px;
+    
     width: 70%;
     border-bottom: 1px solid black;
-   
+    height: 20px;
     gap: 20px;
     text-transform: uppercase;
     font-weight: 600;
+    float: left;
 }
 
 .all_sections {
-    margin-left: 100px;
-    margin-top: 30px;
-    margin-right: 20px;
+    
+   
     display: flex;
     width: 50%;
     justify-content: space-between;
@@ -205,12 +209,5 @@ main {
 
 
 
-.sidebar {
-  
-    }
-    
-    .content {
-    margin-right: 25%;
-    padding: 20px;
-    }
+
 
