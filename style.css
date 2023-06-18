@@ -1,29 +1,45 @@
 * {
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
     background-color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     height: 100vh;
     width: 100%;
-    background: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
     
 
 }
 
 header {
-    display: flex;
     width: 100%;
     position: sticky;
     top:0;
-    box-shadow:  3px 11px 14px 1px rgba(155, 153, 153, 0.22);
-    
-
-   
+    box-shadow:  3px 11px 14px 1px rgba(155, 153, 153, 0.22);   
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+ } 
+
+ .sidebar {
+    position: sticky;
+    left: 0;
+    width: 2%;
+    height: 100vh;
+    background-color: lightgray;
+    
+    float: right;
+ }
 
 .navbar {
     width: 100%;
@@ -38,10 +54,7 @@ header {
 }
 
 
-   main {
-    
-    
-   } 
+
 
 .icons {
     display: flex;
@@ -79,11 +92,11 @@ header {
 
 
 .doubleTitle {
-    display: inline-flex;
-    margin: 65px 110px 25px 100px;
-    padding-bottom: 15px;
+    display: flex;
+    margin: 65px -35px 0px 100px;
+    width: 70%;
     border-bottom: 1px solid black;
-    width: 100%;
+   
     gap: 20px;
     text-transform: uppercase;
     font-weight: 600;
@@ -104,7 +117,7 @@ header {
     margin-right: 20px;
     margin-top: 50px;
     width: 100%;
-    min-width: 0;
+    
 }
 
 .re-reduximg {
@@ -130,7 +143,7 @@ header {
 
 
 .text-1 {
-   
+    white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
     
@@ -142,13 +155,6 @@ header {
     margin-bottom:5px;
 }
 
-.sidebarscroll {
-    position: fixed;
-    width: 50%;
-    margin-left: 1100px;
-    border-left: 1px solid black;
-    
-}
 
 .lorem {
     white-space: nowrap;
@@ -197,9 +203,14 @@ header {
     gap: 5px;
 }
 
-aside {
-    min-height: 100vh;
-    margin-left: 80%;
-    background-color: red;
-}
+
+
+.sidebar {
+  
+    }
+    
+    .content {
+    margin-right: 25%;
+    padding: 20px;
+    }
 
